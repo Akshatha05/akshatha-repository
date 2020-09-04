@@ -19,7 +19,7 @@ namespace AnagramPair.Numbers
             {
                 int c = a + b;
                 Console.Write("," + c);
-                a = b; b = c;
+                a = b; b = c;//sd
                
             }
             Console.WriteLine();
