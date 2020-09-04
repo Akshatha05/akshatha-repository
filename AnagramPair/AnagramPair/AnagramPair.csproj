@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AnagramPair.GenericClass</StartupObject>
+    <StartupObject>AnagramPair.Numbers.FibonaciSeries</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,10 @@
     <Compile Include="AnagramPair.cs" />
     <Compile Include="GenericClass.cs" />
     <Compile Include="GenericCollections.cs" />
+    <Compile Include="LinkedListClass.cs" />
+    <Compile Include="Numbers\FibonaciSeries.cs" />
+    <Compile Include="Numbers\FingFactorial.cs" />
+    <Compile Include="Numbers\SwapNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

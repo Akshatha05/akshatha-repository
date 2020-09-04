@@ -1,0 +1,6 @@
+C:\Users\Akshatha\source\repos\AnagramPair\AnagramPair\bin\Debug\AnagramPair.exe
+C:\Users\Akshatha\source\repos\AnagramPair\AnagramPair\bin\Debug\AnagramPair.pdb
+C:\Users\Akshatha\source\repos\AnagramPair\AnagramPair\obj\Debug\AnagramPair.csprojAssemblyReference.cache
+C:\Users\Akshatha\source\repos\AnagramPair\AnagramPair\obj\Debug\AnagramPair.csproj.CoreCompileInputs.cache
+C:\Users\Akshatha\source\repos\AnagramPair\AnagramPair\obj\Debug\AnagramPair.exe
+C:\Users\Akshatha\source\repos\AnagramPair\AnagramPair\obj\Debug\AnagramPair.pdb

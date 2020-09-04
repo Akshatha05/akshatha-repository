@@ -11,15 +11,33 @@ namespace AnagramPair
         public static void Main()
         {
             //Generic Collection using List.
-            List<string> StringList = new List<string>();
-            StringList.Add("Harry Potter");
-            StringList.Add("Iron Man");
-            StringList.Add("Captain America");
+            List<string> StringList = new List<string>() { "Harry Potter", "Iron Man", "Captain America","Black Widow",
+                "Black Panther" };
+
             foreach(var s in StringList)
             {
-                Console.Write(s + " ");
+                Console.WriteLine(s + "," + " ");
                 
             }
+            //Removing element from list
+            StringList.RemoveRange(1,3);
+            Console.WriteLine("Elements after removing");
+            foreach (var s in StringList)
+            {
+                Console.Write(s + "," + " ");
+            }
+            //Sorting of list
+             List<string> StringList1 = new List<string>() { "Harry Potter", "Iron Man", "Captain America","Black Widow",
+                "Black Panther" };
+            StringList1.Sort();
+            Console.WriteLine("Elements after sorting :");
+            foreach (var s in StringList1)
+            {
+                Console.Write( s +"," + " ");
+            }
+
+
+            /*-------------------*/
             //Collection Class
             Collection<string> NameCollection = new Collection<string>();
             NameCollection.Add("Black Widow");
